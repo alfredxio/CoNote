@@ -1,0 +1,92 @@
+
+<html>
+
+<head>
+    <title>CoNote</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="cnote-area.js"></script>
+    <!-- <script src="sheetsubmit.js"></script> -->
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>CO-NOTE</h1></br>
+        Site Identified: <span id="site-identified">Site</span>
+    </div>
+
+    <form action="https://sheetdb.io/api/v1/9aqzjbmsuur6l"
+          method="post"
+          name="sheet-submit"
+          class="rendered-form"
+          id="sheetdb-form">
+          
+        <div>
+        <button type="button" class="btn" name="fetch" id="fetch">FETCH</button>
+        
+        <!-- <button type="button" class="btn" name="fetchwcode" id="fetchwc" hidden>FETCH WITH CODE</button> -->
+        </div>
+        
+
+        <div>
+            <label for="ctitle" class="label">Code-Title</label><br/>
+            <input type="text" class="form-control" name="ctitle" value="Fetch/ Enter Title" id="ctitle">
+        </div>
+       
+        <div>
+            <label for="clink" class="label">Code-Link</label><br/>
+            <input type="text" class="form-control" name="clink" value="Fetch/ Enter Link" id="clink">
+        </div>
+        
+        <div>
+            <label for="cdiff" class="label">Code-Difficulty</label><br/>
+            <input type="text" class="form-control" name="cdiff" value="Fetch/ Enter Difficulty" id="cdiff">
+        </div>
+        
+        <div>
+            <label for="cnote" class="label">Add Note</label>
+            <div style="margin-left: 220; display: inline">
+            <select name="arrowselect" id="arrows">
+                <option value=""></option>
+                <option value="\u2022">•</option>
+                <option value="\u25cf">●</option>
+                <option value="\u27a4">➤</option>
+                <option value="\u27ad">➭</option>
+            </select></div><br/>
+            <textarea type="textarea" class="form-control cnotec" name="cnote" id="cnote"></textarea>
+        </div>
+        
+        <div>
+            <label for="cmedia" class="label">Add Media</label><br/>
+            <input type="file" class="form-control" name="cmedia" multiple="false" id="cmedia">
+        </div>
+        
+        <div hidden>
+            <label for="csol" class="label">Solution</label><br/>
+            <textarea type="textarea" class="form-control" name="csol" id="csol"></textarea>
+        </div>
+
+        <div>
+            <button type="submit" class="btn" name="Save" id="save">SAVE</button>
+        </div>
+        
+        
+    </form>
+
+
+
+
+
+    <div class="footer">
+        Made by Alfred.
+    </div>
+
+
+
+</body>
+
+</html>

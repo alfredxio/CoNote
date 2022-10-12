@@ -1,0 +1,101 @@
+/*@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");*/
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 350px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+.cnotec::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+.header{
+  align-items: center;
+  text-align: center;
+}
+.header h1{
+  display: inline;
+}
+
+.rendered-form {
+  position:center;
+  justify-content: center;
+  margin-left: 10px;
+  background: #fff;
+  width: 90%;
+  }
+
+  .h2 {
+    line-height: 1;
+    color: #44c4e7;
+    font-size: 12px;
+    font-weight: 200;
+  }
+  .rendered-form input {
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 5px 7px;
+    border: 1px solid #ccc;
+    color: rgb(110, 110, 110);
+    font-family: "Roboto";
+    box-sizing: border-box;
+    font-size: 14px;
+    }
+
+.rendered-form input:focus {
+      color: #333;
+      border: 1px solid #44c4e7;
+}
+
+.rendered-form textarea {
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  color: rgb(110, 110, 110);
+  font-family: "Roboto";
+  box-sizing: border-box;
+  font-size: 14px;
+  resize: none;
+}
+.rendered-form textarea:focus {
+    color: #333;
+    border: 1px solid #44c4e7;
+}
+  
+.rendered-form  button {
+    cursor: pointer;
+    background: #44c4e7;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 0;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+.btn:hover {
+      background: #369cb8;
+    }
+
+.footer{
+  padding-top: 20 px;
+  text-align: center;
+  font-size: .875rem;
+  color: #8597a3;
+}
+

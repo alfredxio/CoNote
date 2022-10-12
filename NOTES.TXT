@@ -1,0 +1,14 @@
+Title
+Link
+Difficulty
+Solution
+
+Note
+
+https://stackoverflow.com/questions/11684454/getting-the-source-html-of-the-current-page-from-chrome-extension
+
+https://www.c-sharpcorner.com/article/create-chrome-extension-and-implement-basic-use-cases/
+
+
+webapp url
+https://script.google.com/macros/s/AKfycbzauDdhso7xtlrqbwwAibjq_DZNue3rcu8dNphL0m_isl7r4Im8CYzUHm6K8sLqma5JXQ/exec

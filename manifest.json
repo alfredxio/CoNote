@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Co_Note",
+    "description": "Code-Assist Note taking extension.",
+    "icons": { "16": "icon.png",
+               "128": "iconl.png" },
+               
+    "version": "2.0.0",
+    
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    },
+    
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "tabs",
+        "storage",
+        "declarativeContent"
+        ,"contextMenus"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
